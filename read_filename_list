@@ -1,0 +1,11 @@
+import os
+import pandas as pd
+#os.getcwd()
+list1 = os.listdir("""Z:\ResearchHome\Groups\loefflgrp\home\common\DNA\Plasmids""")
+#print(os.listdir("""Z:\ResearchHome\Groups\loefflgrp\home\common\DNA\Plasmids""")) 
+#print(list1)
+df = pd.DataFrame(list1)
+csv_data = df.to_csv(index=False)
+#df.to_csv('', index=False)
+#f.to_csv(r'vector.csv')
+print(csv_data)
