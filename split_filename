@@ -1,0 +1,2 @@
+path = "0001 Planning_Group_20180108.ind"
+filename, ext = path.split(" ")
