@@ -1,0 +1,7 @@
+for i in range(1,500):
+    number_str = str(i)
+#Convert `a_number` to a string
+    zero_filled_number = number_str.zfill(4)
+#Pad `number_str` with zeros to 5 digits
+
+    print(zero_filled_number)
